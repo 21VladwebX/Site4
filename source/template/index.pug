@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		title Site4
+		link(rel="stylesheet" href="styles/main.min.css")
+	body
+		header
+			img(src="images/template/header.jpeg")
+		menu
+			include src/header/menu.pug
+		section
+			include src/body/header.pug
+			.main
+				include src/body/aside.pug
+				include src/body/main.pug

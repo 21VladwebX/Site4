@@ -1,0 +1,47 @@
+.main
+	display: grid;
+	height: 450px;
+	// grid-template-rows: 1fr;
+	grid-template-columns: 325px 575px;
+	grid-column-gap: 60px;
+.aside
+	text-align: left;
+	
+	.news
+		h2
+			text-transform: uppercase;
+			color: blue;
+		
+		&__items
+			margin-top: 30px;
+			
+
+.news__items
+	color: red;
+	height: 120px;
+	display: grid;
+	grid-template-rows: repeat(4,29px);
+	grid-template-columns: 1fr;
+	grid-row-gap: 11px;
+	.news__item
+		div 
+			display: inline;
+			color: #2a2a2a;
+		span
+			display: inline-block;
+			color: blue;
+			border-bottom: 2px solid #bfe8ef;
+			
+			&:first-child
+				border-bottom: 2px solid #c9c9c9;
+				color: #2a2a2a; 
+						
+	.allNews
+		top: 200px;
+		display: block;
+		color: blue;
+		font-weight: bold;
+		font-size: 9px;
+		
+
+		
