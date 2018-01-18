@@ -1,0 +1,57 @@
+.ourProjects
+	text-align: left;
+	position: relative;
+	margin-top: 85px;
+	
+	&__title
+		text-transform: uppercase;
+		color: blue;
+		
+	
+
+	a.arr__left
+		position: absolute;
+		top: 85px;
+		left: -10px;
+		// img
+			 
+	a.arr__right
+		position: absolute;
+		top: 85px;
+		left: 955px;
+		transform: rotate( 180deg);	
+
+	.ourProjects__items
+		margin-top: 26px;
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: repeat(4, 180px);
+		justify-content: space-between;
+		padding: 0 20px;
+		
+		.ourProjects__item
+			width: 172px;
+			&-title
+				a
+					text-transform: uppercase;
+					color: blue;
+				
+			&-price 
+				width: auto;
+				
+				span 
+					color: #8b8b8b;
+				span:nth-child(2)
+					color: #000;
+					font-weight: bold;
+			
+			&-locate
+				color: #8b8b8b;
+	&__desc
+		padding: 47px 0 0 20px;	
+		font-size: 11px;
+		color: 	#8b8b8b;
+		line-height: 1.5em;
+		padding-bottom: 56px;
+		border-bottom: 1px dashed #909090;
+ 

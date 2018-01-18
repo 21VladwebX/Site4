@@ -1,0 +1,46 @@
+.footer
+	
+	margin-top: 53px;
+	text-align: left;
+	padding-left: 120px;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(2,210px) 350px;
+	grid-column-gap: 105px;
+
+	span
+		display: block;
+		color: #959898;
+	a 
+		display: block;
+		margin-top: 28px;
+		color: blue;
+		
+	&__item
+		// &-1
+
+		&-2
+			span:first-child
+				padding-bottom: 35px;
+				
+			span:nth-child(2), span:nth-child(3)
+				color: blue;
+				font-size: 18px;
+				font-weight: bold;
+			
+			span:last-child
+				padding-top: 14px;
+		&-3
+			margin-left: 145px;
+			height: 83px;
+			float: right;
+			border: 1px dashed yellow;
+			position: relative;
+			
+			.wrap
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;	
+				border: 1px dotted #000;
